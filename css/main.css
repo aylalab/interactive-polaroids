@@ -12,6 +12,7 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+  transition: all .3s linear;
 }
 
 .polaroid:first-child {
@@ -31,6 +32,22 @@ html {
   transform: rotate(30deg);
   left: 23.5em;
   top: 6em;
+}
+
+.polaroid:hover {
+  transform: rotate(0deg);
+}
+
+.polaroid:nth-child(3):hover {
+  z-index: 10;
+}
+
+.polaroid:first-child:hover {
+  z-index: 10;
+}
+
+.polaroid:nth-child(2):hover {
+  z-index: 5;
 }
 
 .polaroid > img {
