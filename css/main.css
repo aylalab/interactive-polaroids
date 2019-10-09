@@ -16,21 +16,21 @@ html {
 
 .polaroid:first-child {
   transform: rotate(-10deg);
-  left: 28em;
-  top: 12em;
+  left: 11em;
+  top: 6.5em;
 }
 
 .polaroid:nth-child(2) {
   transform: rotate(5deg);
-  left: 35em;
-  top: 15em;
+  left: 17em;
+  top: 9.5em;
   z-index: 4;
 }
 
 .polaroid:nth-child(3) {
   transform: rotate(30deg);
-  left: 40em;
-  top: 12em;
+  left: 23.5em;
+  top: 6em;
 }
 
 .polaroid > img {
@@ -41,4 +41,7 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  left: 5em;
+  bottom: 1.5em;
 }
